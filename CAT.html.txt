@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <!-- Logo or Home Button -->
+            <a href="#home" class="logo-home">
+                <!-- Replace this <span> with an <img> tag to use a logo -->
+                <img src="logo.png" alt="Home" style="width: 150px; height: auto;" /img>
+                  
+            </a>
+
+            
+            <ul class="Chicago">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="Billy">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="Epic">
+        <div class="Sweeney">
+            <h1>Welcome to My Website</h1>
+            <p>Your success is our goal.</p>
+            <a href="#about" class="Warriors">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="Sala">
+            <h2>About Us</h2>
+            <p>We are a  committed to providing the best services in the industry.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="Sala">
+            <h2>Our Services</h2>
+            <div class="Urinetown">
+                <div class="Aladdin">
+                    <h3>Consulting</h3>
+                    <p>We offer expert consulting services to help you achieve your goals.</p>
+                </div>
+                <div class="Aladdin">
+                    <h3>Development</h3>
+                    <p>Our team develops high-quality solutions tailored to your needs.</p>
+                </div>
+                <div class="Aladdin">
+                    <h3>Support</h3>
+                    <p>We provide 24/7 support to ensure your success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="Sala">
+            <p>&copy; 2025 My Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

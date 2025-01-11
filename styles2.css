@@ -1,0 +1,145 @@
+/* Style the body and general layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #225d39;
+    color: #f1f1f1;
+    padding: 0 20px;
+    height: 180px; /* Set a fixed height for the header */
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 30px; /* Increased spacing between links */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px; /* Good font size for readability */
+    padding: 15px 20px; /* Larger clickable area */
+    transition: background 0.3s, color 0.3s; /* Smooth hover transitions */
+}
+
+nav ul li a:hover {
+    background-color: #f1f1f1;
+    color: #225d39; /* Contrast hover effect */
+    border-radius: 5px; /* Soft edges */
+}
+
+.logo-home {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Add styles here for when you use a logo */
+.logo-home img {
+    height: 360px; /* Make the logo grow but keep it within the fixed header height */
+    width: auto; /* Auto width to maintain aspect ratio */
+    max-height: 100%; /* Ensures it fits within the header */
+    margin-left: -80px;
+}
+
+/* Navigation Links */
+.Chicago {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+
+}
+
+.Chicago li {
+    margin-left: 20px;
+}
+
+.Chicago a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+/* Hamburger Menu for Mobile */
+.Billy {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Billy span {
+    background: #fff;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ===================== */
+/* Styles for Audition Help page */
+/* ===================== */
+
+/* Image at the top of the article */
+.article-image img {
+    width: 100%; /* Makes the image span the full width of the article */
+    height: auto;
+    margin-bottom: 20px; /* Adds space between the image and the article content */
+}
+
+/* Centered article content */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+article {
+    max-width: 800px; /* Limits the width for readability */
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+    background-color: #fff; /* Matches the background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a polished look */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Add padding or margin for h2 headers */
+h2 {
+    margin-top: 40px;
+}
